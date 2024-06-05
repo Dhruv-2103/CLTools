@@ -28,7 +28,7 @@ function decompress(input: number, expectedValues: number) {
 }
 
 export const presets = {
-  'birdflop': ['#084CFB', '#ADF3FD'],
+  'CraftLands': ['#ADF3FD', '#084CFB'],
   'SimplyMC': ['#00FFE0', '#EB00FF'],
   'Rainbow': ['#FF0000', '#FF7F00', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#9400D3'],
   'Skyline': ['#1488CC', '#2B32B2'],

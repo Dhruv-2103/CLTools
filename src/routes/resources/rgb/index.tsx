@@ -24,7 +24,7 @@ const formats = [
 ];
 
 const defaults = {
-  colors: presets.birdflop,
+  colors: presets.CraftLands,
   text: 'craftlands',
   format: '&#$1$2$3$4$5$6$f$c',
   formatchar: '&',
@@ -82,7 +82,7 @@ export default component$(() => {
       <div class="my-10 min-h-[60px] w-full">
       <Minecraft class="w-full max-h-80 mix-blend-plus-darker mb-4"/>
         <h1 class="font-bold text-gray-50 text-2xl sm:text-4xl mb-2">
-          RGBcraftlands
+          RGB CraftLands
         </h1>
 
         {/* charlimit={256} */}
