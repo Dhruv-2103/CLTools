@@ -20,9 +20,9 @@ const Navbar = () => {
   ];
 
   const resources = [
-    { label: "RGBcraftlands", href: "https://tools.craftlands.fun/resources/rgb" },
+    { label: "RGB Text", href: "https://tools.craftlands.fun/resources/rgb" },
     { label: "Animated Tab", href: "https://tools.craftlands.fun/resources/animtab" },
-    { label: "Spark Profile", href: "https://tools.craftlands.fun/resources/sparkprofile" },
+    { label: "Server Analyzer", href: "https://tools.craftlands.fun/resources/sparkprofile" },
   ];
 
   const important = [
@@ -76,7 +76,7 @@ const Navbar = () => {
             <DropDown class="w-3 h-3" />
           </li>
           <li class="flex justify-center items-center space-x-1 hover:text-[#0195f4] transition-all ease-in-out duration-300">
-            <DropDownComponent buttonLabel="Resources" links={resources} buttonClass="focus:text-[#0195f4] hover:text-[#0195f4]" divClass="-right-12 w-[200px] py-2"/>
+            <DropDownComponent buttonLabel="Tools" links={resources} buttonClass="focus:text-[#0195f4] hover:text-[#0195f4]" divClass="-right-12 w-[200px] py-2"/>
             <DropDown class="w-3 h-3" />
           </li>
           <li class="flex justify-center items-center space-x-1 hover:text-[#0195f4] transition-all ease-in-out duration-300 focus:text-[#0195f4]">
