@@ -49,11 +49,11 @@
     "react-router-dom": "^6.23.1",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5",
-    "undici": "^6.18.1",
+    "undici": "^6.18.2",
     "vite": "^5.2.12",
     "vite-tsconfig-paths": "^4.3.2",
     "wrangler": "latest",
-    "yaml": "^2.4.2",
+    "yaml": "^2.4.3",
     "zod": "^3.23.8"
   },
   "packageManager": "pnpm@9.0.6+sha512.f6d863130973207cb7a336d6b439a242a26ac8068077df530d6a86069419853dc1ffe64029ec594a9c505a3a410d19643c870aba6776330f5cfddcf10a9c1617",
