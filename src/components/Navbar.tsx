@@ -20,9 +20,9 @@ const Navbar = () => {
   ];
 
   const resources = [
-    { label: "RGB Text", href: "https://tools.craftlands.fun/resources/rgb" },
-    { label: "Animated Tab", href: "https://tools.craftlands.fun/resources/animtab" },
-    { label: "Server Analyzer", href: "https://tools.craftlands.fun/resources/sparkprofile" },
+    { label: "RGB Text", href: "https://tools.craftlands.fun/tools/rgb" },
+    { label: "Animated Tab", href: "https://tools.craftlands.fun/tools/animtab" },
+    { label: "Server Analyzer", href: "https://tools.craftlands.fun/tools/sparkprofile" },
   ];
 
   const important = [
@@ -37,9 +37,9 @@ const Navbar = () => {
   const mobile = [
     { label: "Europe", href: "https://craftlands.host/minecraftEU" },
     { label: "USA", href: "https://craftlands.host/minecraftUSA" },
-    { label: "RGB Text", href: "https://tools.craftlands.fun/resources/rgb" },
-    { label: "Animated Tab", href: "https://tools.craftlands.fun/resources/animtab" },
-    { label: "Server Analyzer", href: "https://tools.craftlands.fun/resources/sparkprofile" },
+    { label: "RGB Text", href: "https://tools.craftlands.fun/tools/rgb" },
+    { label: "Animated Tab", href: "https://tools.craftlands.fun/tools/animtab" },
+    { label: "Server Analyzer", href: "https://tools.craftlands.fun/tools/sparkprofile" },
     { label: "Partners", href: "https://craftlands.host/partners" },
     { label: "Contact Us", href: "https://discord.com/invite/8Nerq5Kavk" },
     { label: "Terms & Service", href: "https://craftlands.host/terms-of-service" },
@@ -52,7 +52,7 @@ const Navbar = () => {
 
   return (
     <nav class="flex sticky justify-around min-w-full max-lg:justify-between max-lg:px-8 items-center min-h-[69px] max-lg:min-h-28 bg-[#1c1f37]">
-      <Link href="https://craftlands.host">
+      <Link href="/tools/rgb">
         <div class="flex justify-center items-center space-x-2">
           <CraftlandsLogo class="w-10 h-10" />
           <span class="text-white font-extrabold text-xl">
