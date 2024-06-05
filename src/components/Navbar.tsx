@@ -20,9 +20,9 @@ const Navbar = () => {
   ];
 
   const resources = [
-    { label: "RGBcraftlands", href: "#" },
-    { label: "Animated Tab", href: "#" },
-    { label: "Spark Profile", href: "#" },
+    { label: "RGBcraftlands", href: "https://tools.craftlands.fun/resources/rgb" },
+    { label: "Animated Tab", href: "https://tools.craftlands.fun/resources/animtab" },
+    { label: "Spark Profile", href: "https://tools.craftlands.fun/resources/sparkprofile" },
   ];
 
   const important = [
